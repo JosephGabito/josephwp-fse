@@ -4,7 +4,10 @@
  * Slug: josephwp-fse/hero-banner
  * Categories: banner
  * Description: Hero banner with a big headline, intro text, CTA button & logos.
+ *
+ * @package josephwp-fse
  */
+
 ?>
 <!-- wp:group -->
 <div class="wp-block-group">

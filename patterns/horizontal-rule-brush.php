@@ -4,7 +4,10 @@
  * Slug: josephwp-fse/horizontal-rule-brush
  * Categories: banner
  * Description: Horizontal rule with a brush background.
+ *
+ * @package josephwp-fse
  */
+
 ?>
 <!-- wp:group {
 	"style": {

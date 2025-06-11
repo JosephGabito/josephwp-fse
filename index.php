@@ -1,3 +1,8 @@
 <?php
-// Required for theme validity
-echo 'This theme uses Full Site Editing. Use Appearance → Editor.';
+/**
+ * Index file for JosephWP FSE.
+ *
+ * This theme uses Full Site Editing. Use Appearance → Editor.
+ *
+ * @package josephwp-fse
+ */

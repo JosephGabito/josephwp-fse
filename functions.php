@@ -1,6 +1,10 @@
 <?php
+/**
+ * Functions file for JosephWP FSE.
+ *
+ * @package josephwp-fse
+ */
 
-// Enqueues style.css on the front.
 if ( ! function_exists( 'josephwp_fse_enqueue_styles' ) ) :
 	/**
 	 * Enqueues style.css on the front.

@@ -4,7 +4,10 @@
  * Slug: josephwp-fse/recent-blogs
  * Categories: banner
  * Description: Recent blogs.
+ *
+ * @package josephwp-fse
  */
+
 ?>
 <!-- wp:group -->
 <div class="wp-block-group">

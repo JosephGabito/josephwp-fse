@@ -4,6 +4,8 @@
  * Slug: josephwp-fse/working-with
  * Categories: text
  * Description: Working with.
+ *
+ * @package josephwp-fse
  */
 
 $companies = array(
