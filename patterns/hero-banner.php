@@ -106,16 +106,16 @@
 							}
 						} -->
 						<p style="line-height: 1.6;">
-                        When WordPress vendors need rock-solid plugins and themes, they call me. Elite-certified across three major platforms with a proven track record of delivering scalable solutions that handle real-world traffic and complexity. Your project deserves code that works the first time, and keeps working.
-                        </p>
+						When WordPress vendors need rock-solid plugins and themes, they call me. Elite-certified across three major platforms with a proven track record of delivering scalable solutions that handle real-world traffic and complexity. Your project deserves code that works the first time, and keeps working.
+						</p>
 						<!-- /wp:paragraph -->
 
-                       <!-- wp:spacer {
-                            "height": "10px"
-                        } -->
-                        <div style="height: 10px;" aria-hidden="true" class="wp-block-spacer"></div>
-                        <!-- /wp:spacer -->
-                        
+						<!-- wp:spacer {
+							"height": "10px"
+						} -->
+						<div style="height: 10px;" aria-hidden="true" class="wp-block-spacer"></div>
+						<!-- /wp:spacer -->
+						
 						<!-- wp:columns -->
 						<div class="wp-block-columns">
 							<!-- wp:column -->
@@ -220,11 +220,11 @@
 						} -->
 						<div class="wp-block-button">
 							<a class="wp-block-button__link has-background wp-element-button" 
-							   href="#" 
-							   style="
-								   border-radius: 0px;
-								   background-color: #5500FF;
-							   ">Learn More</a>
+								href="#" 
+								style="
+									border-radius: 0px;
+									background-color: #5500FF;
+								">Learn More</a>
 						</div>
 						<!-- /wp:button -->
 					</div>

@@ -8,8 +8,16 @@
     "authors": [
         {
             "name": "Joseph G",
-            "email": "gabito.joseph@gmail.com"
+            "email": "no-reply@josephwp.com"
         }
     ],
-    "require": {}
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^3.13",
+        "wp-coding-standards/wpcs": "^3.0"
+    },
+    "config": {
+        "allow-plugins": {
+            "dealerdirect/phpcodesniffer-composer-installer": true
+        }
+    }
 }

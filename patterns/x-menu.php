@@ -7,5 +7,5 @@
  */
 ?>
 <menu id="primary-menu">
-    <!-- wp:navigation /-->
+	<!-- wp:navigation /-->
 </menu>

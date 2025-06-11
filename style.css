@@ -15,98 +15,98 @@
  * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
  */
 
- body {
-  line-height: 1.5em;
- }
- .sr-only {
-    position: absolute !important;
-    width: 1px !important;
-    height: 1px !important;
-    padding: 0 !important;
-    margin: -1px !important;
-    overflow: hidden !important;
-    clip: rect(0, 0, 0, 0) !important;
-    white-space: nowrap !important;
-    border: 0 !important;
+body {
+	line-height: 1.5em;
+}
+.sr-only {
+	position: absolute !important;
+	width: 1px !important;
+	height: 1px !important;
+	padding: 0 !important;
+	margin: -1px !important;
+	overflow: hidden !important;
+	clip: rect(0, 0, 0, 0) !important;
+	white-space: nowrap !important;
+	border: 0 !important;
 }
 
 .on-top {
-    z-index: 1000;
-    position: relative;
+	z-index: 1000;
+	position: relative;
 }
 
 .sr-only-focusable:focus {
-    position: static !important;
-    width: auto !important;
-    height: auto !important;
-    padding: inherit !important;
-    margin: inherit !important;
-    overflow: visible !important;
-    clip: auto !important;
-    white-space: normal !important;
+	position: static !important;
+	width: auto !important;
+	height: auto !important;
+	padding: inherit !important;
+	margin: inherit !important;
+	overflow: visible !important;
+	clip: auto !important;
+	white-space: normal !important;
 }
 
- menu#primary-menu {
-   box-sizing: border-box;
-   background: #161616;
-   border: 1px solid #1F1F1F;
-   box-shadow: 0px 0px 0px 2px #0E0E0E;
-   border-radius: 20px;
-   display: block;
-   margin: 0 auto;
-   max-width: 330px;
-   padding: 0;
-   display: flex;
-   justify-content: center;
- }
+menu#primary-menu {
+	box-sizing: border-box;
+	background: #161616;
+	border: 1px solid #1F1F1F;
+	box-shadow: 0px 0px 0px 2px #0E0E0E;
+	border-radius: 20px;
+	display: block;
+	margin: 0 auto;
+	max-width: 330px;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+}
 
- menu#primary-menu ul {
-   gap: 5px;
- }
+menu#primary-menu ul {
+	gap: 5px;
+}
 
- body.home.blog menu#primary-menu ul li:first-child,
- menu#primary-menu ul li.current-menu-item {
-   color: #fff;
- }
+body.home.blog menu#primary-menu ul li:first-child,
+menu#primary-menu ul li.current-menu-item {
+	color: #fff;
+}
 
- menu#primary-menu ul li .wp-block-navigation-item__label {
-   padding: 8px 8px;
-   font-size: 12px;
-   display: block;
-   font-weight: 600;
- }
+menu#primary-menu ul li .wp-block-navigation-item__label {
+	padding: 8px 8px;
+	font-size: 12px;
+	display: block;
+	font-weight: 600;
+}
 
- /* Recent Blogs */
- ul.wp-block-latest-posts__list li {
-  margin-bottom: 2rem;
- }
+/* Recent Blogs */
+ul.wp-block-latest-posts__list li {
+	margin-bottom: 2rem;
+}
 
- ul.wp-block-latest-posts__list li a {
-    text-decoration: none;
-    line-height: 1.5em;
- }
+ul.wp-block-latest-posts__list li a {
+	text-decoration: none;
+	line-height: 1.5em;
+}
 
- ul.wp-block-latest-posts__list li a.wp-block-latest-posts__read-more {
-  display: block;
-  margin-top: 1rem;
-  color: #5800FD;
-  background-image: url(assets/images/readmore.svg);
-  background-size: 18px;
-  background-repeat: no-repeat;
-  background-position: right center;
-  padding-right: 18px;
-  max-width: 85px;
- }
+ul.wp-block-latest-posts__list li a.wp-block-latest-posts__read-more {
+	display: block;
+	margin-top: 1rem;
+	color: #5800FD;
+	background-image: url(assets/images/readmore.svg);
+	background-size: 18px;
+	background-repeat: no-repeat;
+	background-position: right center;
+	padding-right: 18px;
+	max-width: 85px;
+}
 
- .wp-block-latest-posts__post-excerpt,
- .wp-block-latest-posts__post-title {
-    font-size: 1.15rem;
-    margin-bottom: 1rem;
-    display: block;
- }
+.wp-block-latest-posts__post-excerpt,
+.wp-block-latest-posts__post-title {
+	font-size: 1.15rem;
+	margin-bottom: 1rem;
+	display: block;
+}
 
- .wp-block-latest-posts__post-excerpt {
-  font-size: 1rem;
-  font-weight: 400;
-  color: #A1A1A1;
+.wp-block-latest-posts__post-excerpt {
+	font-size: 1rem;
+	font-weight: 400;
+	color: #A1A1A1;
 }
