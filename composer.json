@@ -1,0 +1,15 @@
+{
+    "name": "josephgabito/josephwp-fse",
+    "autoload": {
+        "psr-4": {
+            "Josephgabito\\JosephwpFse\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Joseph G",
+            "email": "gabito.joseph@gmail.com"
+        }
+    ],
+    "require": {}
+}

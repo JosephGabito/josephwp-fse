@@ -1,0 +1,74 @@
+{
+    "version": 3,
+    "settings": {
+        "appearanceTools": true,
+        "color": {
+            "background": true,
+            "custom": true,
+            "customGradient": true
+        },
+        "border": {
+            "color": true,
+            "radius": true,
+            "style": true,
+            "width": true
+        },
+        "blocks": {
+            "core/group": {
+                "border": {
+                    "radius": true
+                }
+            }
+        },
+        "layout": {
+            "contentSize": "800px",
+            "wideSize": "1200px"
+        },
+        "spacing": {
+            "margin": true,
+            "padding": true
+        },
+        "typography": {
+            "fontFamilies": [
+                {
+                    "name": "Primary",
+                    "slug": "primary",
+                    "fontFamily": "Test Söhne Mono, serif",
+                    "fontFace": [
+                        {
+                            "fontFamily": "Inter",
+                            "fontWeight": "400 800",
+                            "src": [
+                                "file:./assets/fonts/inter.woff2"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Secondary",
+                    "slug": "secondary",
+                    "fontFamily": "system-ui, sans-serif"
+                },
+                {
+                    "name": "Tertiary",
+                    "slug": "tertiary",
+                    "fontFamily": "'Consolas', Times, serif"
+                }
+            ]
+        }
+    },
+    "styles": {
+        "color": {
+            "text": "#cfcfcf",
+            "background": "#101010"
+        },
+        "typography": {
+            "fontFamily": "var(--wp--preset--font-family--primary)"
+        },
+        "spacing": {
+            "padding": {
+                "top": "32px"
+            }
+        }
+    }
+}
