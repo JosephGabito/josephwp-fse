@@ -14,11 +14,22 @@ if ( ! function_exists( 'josephwp_fse_enqueue_styles' ) ) :
 	 * @return void
 	 */
 	function josephwp_fse_enqueue_styles() {
+
+		// Load main styles.
 		wp_enqueue_style(
 			'josephwp-fse-style',
 			get_template_directory_uri() . '/style.css',
 			array(),
 			wp_get_theme()->get( 'Version' )
+		);
+
+		// Load main script.
+		wp_enqueue_script(
+			'josephwp-fse-script',
+			get_template_directory_uri() . '/assets/js/script.js',
+			array(),
+			wp_get_theme()->get( 'Version' ),
+			true
 		);
 	}
 endif;
